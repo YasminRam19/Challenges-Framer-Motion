@@ -46,6 +46,8 @@ export default function Challenges() {
               className="challenge-items"
               key="list"
               exit={{ y: -30, opacity: 0 }}
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
             >
               <AnimatePresence>
                 {/* Code responsible for rendering the list of challenge items */}
